@@ -5,7 +5,6 @@ with open('./input.txt') as f:
 
 number_pattern = re.compile(r'\d+')
 
-res = 0
 l1, l2 = [], []
 for line in lines:
     nums = number_pattern.findall(line)
